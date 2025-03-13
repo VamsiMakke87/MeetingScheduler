@@ -4,13 +4,20 @@ public class Person {
 
     String name;
 
-    public Person(String name){
-        this.name=name;
+    String email;
+
+    String phoneNumber;
+
+
+    public Person(String name, String email, String phoneNumber) {
+        this.name = name;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
     }
 
     public void sendNotificaton(String message){
 
-        System.out.println(name+" recieved a message: "+message);
+        NotificationSender notificationSender= new NotificationSender(name,email,phoneNumber);
 
     }
 

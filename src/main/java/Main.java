@@ -56,7 +56,12 @@ public class Main {
                 for (int i = 0; i < capacity; i++) {
                     System.out.println("Enter attende " + i + " name:");
                     String name = sc.next();
-                    attendes.add(new Person(name));
+                    System.out.println("Enter " + name + "'s email:");
+                    String email = sc.next();
+                    System.out.println("Enter " + name + "'s phone number:");
+                    String phoneNumber = sc.next();
+
+                    attendes.add(new Person(name, email, phoneNumber));
                 }
                 Meeting meeting = new Meeting(attendes, startTime, endTime, date, capacity);
 
@@ -75,8 +80,8 @@ public class Main {
 
                     bookMeetingRoom = sc.next().toUpperCase();
 
-                    if(availableMeetingRooms.contains(bookMeetingRoom))break;
-                    else{
+                    if (availableMeetingRooms.contains(bookMeetingRoom)) break;
+                    else {
                         System.out.println("Please enter available room number only!");
                     }
 

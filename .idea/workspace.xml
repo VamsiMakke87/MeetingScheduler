@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f894703a-8453-4229-9876-f8d6d71eba7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/NotificationSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/TextNotification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Accounts/UserAccounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Accounts/UserAccounts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Payments/Payments.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Payments/Payments.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Payments/Transactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../React/bankify/bankify/src/components/Payments/Transactions.js" afterDir="false" />
@@ -19,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
